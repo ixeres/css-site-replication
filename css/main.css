@@ -16,21 +16,67 @@ body {
   float: left;
 }
 
+.wrapper {
+  width: 900px;
+  padding: 30px;
+}
+
 main {
   position: relative;
   padding-top: 40px;
   overflow: auto;
 }
 
-.title {
-  top: 100px;
-  float: left;
+.logo {
+  padding: 20px 0px;
+  position: relative;
 }
 
-.login {
-  float: left;
+.logo > a {
+  position: absolute;
+  right: 0px;
+  top: 40px;
+  color: #d6d6d6;
+  background: #306390;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 2px;
+  border: 1px outset #1c5380;
 }
 
-.container {
-float: left;
+h2 {
+  color: #06365f;
+}
+
+.content {
+  background: #ffffff;
+  padding: 10px 20px;
+}
+
+.badges > img {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+li {
+  display: inline;
+  margin: 0 10px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+footer {
+  text-transform: uppercase;
+  font-size: 10px;
 }
